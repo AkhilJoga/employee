@@ -1,5 +1,6 @@
 package com.empmicro.entity;
 
+
 public class Record {
 	
 	
