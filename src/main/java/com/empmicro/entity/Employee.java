@@ -8,13 +8,13 @@ import com.empmicro.entity.Record;
 public class Employee {
 	
 	
-	private long eid;
+	private Long eid;
 	private String name;
 	private String phone;
 	
 	private List<Record> records = new ArrayList<>();
 	
-	public Employee(long eid, String name, String phone) {
+	public Employee(Long eid, String name, String phone) {
 		super();
 		this.eid = eid;
 		this.name = name;
@@ -26,7 +26,7 @@ public class Employee {
 	}
 
 
-	public Employee(long eid, String name, String phone, List<Record> records) {
+	public Employee(Long eid, String name, String phone, List<Record> records) {
 		super();
 		this.eid = eid;
 		this.name = name;
@@ -35,7 +35,7 @@ public class Employee {
 	}
 
 	
-	public long getEid() {
+	public Long getEid() {
 		return eid;
 	}
 	public String getName() {
@@ -44,7 +44,7 @@ public class Employee {
 	public String getPhone() {
 		return phone;
 	}
-	public void setEid(long eid) {
+	public void setEid(Long eid) {
 		this.eid = eid;
 	}
 	public void setName(String name) {
